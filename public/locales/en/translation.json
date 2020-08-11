@@ -1,0 +1,38 @@
+{
+  "title": {
+    "filters": "FILTERS",
+    "onsale": "ON SALE",
+    "newlisting": "NEW LISTING",
+    "news": "NEWS"
+  },
+  "filters": {
+    "part1": "By Algorithm",
+    "part2": "By Coin",
+    "part3": "By Equipment",
+    "part4": "By Manufacturer",
+    "minprice": "Minimum price",
+    "maxprice": "Maximum price",
+    "search": "Search"
+  },
+  "hash-rate": "Hash Rate: 11.5",
+  "step2": {
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "company": "Company name (optional)",
+    "country": "Country",
+    "street": "House nubmer and street name",
+    "apartament": "Apartment, suite, unit etc (optional)",
+    "town": "Town / City",
+    "state": "State",
+    "zip": "ZIP",
+    "phone": "Phone",
+    "email": "Email address",
+    "password": "Create account password"
+  },
+  "step3": {
+    "card": "XXXX XXXX XXXX XXXX   Card nubmer",
+    "name": "********* *********   Card holder name",
+    "date": "XX / XX   Expire date",
+    "CVV": "XXX   CVV"
+  }
+}

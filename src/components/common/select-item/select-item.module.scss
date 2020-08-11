@@ -1,0 +1,13 @@
+.selectCoin__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 0;
+  background-color: var(--dark-grey);
+  .item__title {
+    color: var(--light-grey);
+    font: 300 10px Open Sans, sans-serif;
+  }
+}

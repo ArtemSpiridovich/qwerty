@@ -1,0 +1,24 @@
+.container__cart {
+  max-height: 246px;
+  overflow-y: auto;
+  border-bottom: 1px solid var(--light-grey);
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  &::-webkit-scrollbar-track {
+    width: 1px;
+    background-color: var(--dark-grey);
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border-left: 4px solid var(--light-purple);
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 50px;
+    background-color: var(--white);
+    border: 15px 0
+  }
+}

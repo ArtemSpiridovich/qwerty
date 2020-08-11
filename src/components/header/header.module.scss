@@ -1,0 +1,131 @@
+.container__header {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  padding: 30px 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__language {
+    width: 30vw;
+    display: flex;
+    .language__text {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: var(--white);
+      font: bold 14px Exo, sans-serif;
+    }
+    .language__rex {
+      display: flex;
+      align-items: center;
+      margin-right: 28px;
+    }
+    .language__earth {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  }
+  .header__navmenu {
+    .navmenu_close {
+      cursor: pointer;
+      display: block;
+    }
+    .navmenu_open {
+      display: none;
+    }
+    .navmenu__items_open nav {
+      position: fixed;
+      z-index: 999999;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--dark-purple);
+      .items__button {
+        margin-bottom: 108px;
+      }
+      .items__item {
+        cursor: pointer;
+        position: relative;
+        font: 500 30px Exo, sans-serif;
+        color: var(--light-grey);
+        text-decoration: none;
+        margin-bottom: 100px;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -50px;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 2px;
+          width: 10px;
+          background-image: url("../../assets/images/square.svg");
+          background-position: center center;
+          background-size: cover;
+          z-index: 4;
+        }
+        &:last-child {
+          &::after{
+            display: none;
+          }
+          margin-bottom: 0;
+        }
+      }
+    }
+    .navmenu__items_close {
+      display: none;
+    }
+  }
+  .header__menu {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .menu__icon {
+      cursor: pointer;
+      position: relative;
+      margin-right: 26px;
+      display: flex;
+      align-items: center;
+      &::after {
+        content: "";
+        position: absolute;
+        right: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2px;
+        height: 10px;
+        background-image: url("../../assets/images/separator.svg");
+        background-position: center center;
+        background-size: cover;
+        z-index: 4;
+      }
+      &:last-child {
+        margin-right: 0;
+        &:after {
+          display: none;
+        }
+      }
+      .icon__card__count {
+        cursor: pointer;
+        font: bold 14px Exo, sans-serif;
+        color: var(--white);
+        margin-right: 12px;
+      }
+    }
+  }
+  .header__cart{
+    position: absolute;
+    z-index: 10;
+    right: 25px;
+    bottom: 0;
+    transform: translateY(calc(100% + 8px))
+  }
+}

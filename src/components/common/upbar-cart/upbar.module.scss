@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  height: 58px;
+  border-bottom: 1px var(--light-grey);
+  .line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.container__onsale {
+  max-height: 702px;
+  height: 100%;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  &::-webkit-scrollbar-track {
+    width: 1px;
+    background-color: var(--dark-grey);
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 2px solid var(--dark-purple)
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 90px;
+    background-color: var(--white);
+    border: 15px 0
+  }
+  .onsale__products {
+    display: grid;
+    grid-template-rows: auto-flow;
+    grid-template-columns: 1fr 1fr;
+    width: 461px;
+    margin-right: 35px;
+    grid-gap: 27px;
+  }
+}

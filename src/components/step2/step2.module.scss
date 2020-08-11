@@ -1,0 +1,16 @@
+.container{
+  padding: 13px 13px 0;
+  border-bottom: 1px solid var(--dark-grey);
+  .container__row1, .container__row2, .container__row5, .container__row6, .container__row7{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+    >div>input{
+      background-color: var(--dark-purple) !important;
+    }
+  }
+  >div>input {
+    background-color: var(--dark-purple) !important;
+  }
+}

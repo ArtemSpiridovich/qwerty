@@ -1,0 +1,24 @@
+.corn1, .corn2, .corn3, .corn4 {
+  position: absolute;
+  background-color: var(--white);
+  width: 2px;
+  height: 2px;
+  z-index: 3;
+}
+
+.corn1 {
+  left: 0;
+  top: 0;
+}
+.corn2 {
+  right: 0;
+  top: 0;
+}
+.corn3 {
+  left: 0;
+  bottom: 0;
+}
+.corn4 {
+  right: 0;
+  bottom: 0;
+}

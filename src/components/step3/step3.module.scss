@@ -1,0 +1,39 @@
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-purple);
+  width: 115px;
+  height: 101px;
+  position: relative;
+  .visa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  padding: 13px 13px 0;
+  border-bottom: 1px solid var(--dark-grey);
+  .container__row3{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+    >div>input{
+      background-color: var(--dark-purple) !important;
+    }
+  }
+  >div>input {
+    background-color: var(--dark-purple) !important;
+  }
+  .blocks {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    margin-bottom: 13px;
+  }
+}

@@ -1,0 +1,55 @@
+.container__filters {
+  width: 215px;
+  max-height: 702px;
+  height: 100%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  &::-webkit-scrollbar-track {
+    width: 1px;
+    background-color: var(--dark-grey);
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 2px solid var(--dark-purple)
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 90px;
+    background-color: var(--white);
+    border: 15px 0
+  }
+  padding-right: 30px;
+  .filters__selectCoin{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 13px;
+    margin-bottom: 13px;
+    .selectCoin__img {
+      margin: 6px 0 11px;
+    }
+  }
+  .filters__selectManufacturer{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+    margin-bottom: 13px;
+  }
+  .filters__button {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 9px;
+    outline: none;
+    border: none;
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    font: 300 12px Open Sans, sans-serif;
+  }
+}
+

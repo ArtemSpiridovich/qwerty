@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  margin-bottom: 13px;
+  .container__input {
+    width: 100%;
+    padding: 9px;
+    outline: none;
+    border: none;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    &::-webkit-input-placeholder {
+      font: 300 12px Open Sans, sans-serif;
+      color: var(--light-grey);
+    }
+  }
+}
