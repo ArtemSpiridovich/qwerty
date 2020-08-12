@@ -8,9 +8,9 @@
   height: 101px;
   position: relative;
   .visa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 13px;
   }
 }
 
