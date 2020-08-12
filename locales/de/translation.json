@@ -1,0 +1,18 @@
+{
+  "title": {
+    "filters": "PREISAUSWAHL",
+    "onsale": "UMSATZRENDITE",
+    "newlisting": "NEUES ANGEBOT",
+    "news": "NEWS"
+  },
+  "filters": {
+    "part1": "Nach Algorithmus",
+    "part2": "Nach Münze",
+    "part3": "Durch Ausrüstung",
+    "part4": "Nach Hersteller",
+    "minprice": "Mindestpreis",
+    "maxprice": "Höchstpreis",
+    "search": "Suche"
+  },
+  "hash-rate": "hash-rate: 11.5"
+}
