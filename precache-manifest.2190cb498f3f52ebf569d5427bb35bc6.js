@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e387fb5cbc489ff08d34e762e5922fb4",
+    "revision": "852e14b156cc68906d7db4a5c6ae97b0",
     "url": "/qwerty/index.html"
   },
   {
